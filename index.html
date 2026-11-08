@@ -1,0 +1,200 @@
+
+
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Discover considered, confidence-boosting style at ZUHA. Shop new arrivals, everyday essentials and statement pieces.">
+  <meta name="theme-color" content="#f7f5f0">
+  <title>ZUHA — Wear your kind of beautiful</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Skip link and promotional announcement -->
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="announcement-bar">A little something for your first order: <strong>WELCOME10</strong></div>
+
+  <!-- Site header, navigation and shopping actions -->
+  <header class="site-header">
+    <div class="header-inner">
+      <button class="icon-button menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+      <a class="brand" href="#home" aria-label="ZUHA home">ZUHA<span>.</span></a>
+      <nav class="primary-navigation" id="primary-navigation" aria-label="Main navigation">
+        <a href="#home">Home</a>
+        <a href="#collections">Shop</a>
+        <a href="#about">About Us</a>
+        <a href="#why-us">Services</a>
+        <a href="#footer">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button search-toggle" type="button" aria-label="Open search" aria-expanded="false" aria-controls="site-search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg>
+        </button>
+        <button class="icon-button account-button" type="button" aria-label="Account">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M4.8 20a7.2 7.2 0 0 1 14.4 0"/></svg>
+        </button>
+        <a class="icon-button cart-button" href="cart.html" aria-label="Shopping bag, 0 items">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l1 12H4L5 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg>
+          <span class="cart-count" aria-hidden="true">0</span>
+        </a>
+      </div>
+    </div>
+    <form class="search-panel" id="site-search" role="search" hidden>
+      <label class="visually-hidden" for="search-input">Search products</label>
+      <input id="search-input" name="q" type="search" placeholder="What are you looking for?">
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <main id="main-content">
+    <!-- Fashion hero banner -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <img class="hero-image" src="https://images.unsplash.com/photo-1539109136881-3be0616acf4b?auto=format&amp;fit=crop&amp;w=2200&amp;q=85" alt="Model in an elegant, flowing neutral outfit">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow hero-eyebrow">A softer kind of statement</p>
+        <h1 id="hero-title">Wear your kind<br>of <em>beautiful.</em></h1>
+        <p class="hero-copy">Thoughtful pieces, made for wherever the day takes you. Find the feeling that fits.</p>
+        <a class="button button-light" href="#new-arrivals">Shop now <span aria-hidden="true">↗</span></a>
+      </div>
+      <span class="hero-note">Designed to feel like you</span>
+    </section>
+
+    <!-- Featured clothing collections -->
+    <section class="section collection-section" id="collections" aria-labelledby="collections-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">Find your next favourite</p><h2 id="collections-title">The collections</h2></div>
+        <a class="text-link" href="#new-arrivals">Explore all <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="collection-grid">
+        <a class="collection-card" href="#new-arrivals">
+          <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?auto=format&amp;fit=crop&amp;w=850&amp;q=80" alt="A flowing dress in warm afternoon light" loading="lazy">
+          <span class="collection-caption"><span>Dresses</span><span aria-hidden="true">↗</span></span>
+        </a>
+        <a class="collection-card" href="#new-arrivals">
+          <img src="https://images.unsplash.com/photo-1485230895905-ec40ba36b9bc?auto=format&amp;fit=crop&amp;w=850&amp;q=80" alt="A polished, easy-to-wear top" loading="lazy">
+          <span class="collection-caption"><span>Tops</span><span aria-hidden="true">↗</span></span>
+        </a>
+        <a class="collection-card" href="#new-arrivals">
+          <img src="https://images.unsplash.com/photo-1506629905607-d9f1e4fca1f8?auto=format&amp;fit=crop&amp;w=850&amp;q=80" alt="Relaxed tailoring styled for everyday wear" loading="lazy">
+          <span class="collection-caption"><span>Trousers</span><span aria-hidden="true">↗</span></span>
+        </a>
+        <a class="collection-card" href="#new-arrivals">
+          <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&amp;fit=crop&amp;w=850&amp;q=80" alt="A timeless handbag in a rich natural tone" loading="lazy">
+          <span class="collection-caption"><span>Accessories</span><span aria-hidden="true">↗</span></span>
+        </a>
+      </div>
+    </section>
+
+    <!-- New arrivals and product cards -->
+    <section class="section arrivals-section" id="new-arrivals" aria-labelledby="arrivals-title">
+      <div class="section-heading">
+        <div><p class="eyebrow">Just found its way here</p><h2 id="arrivals-title">New arrivals</h2></div>
+        <a class="text-link" href="#collections">Shop the edit <span aria-hidden="true">↗</span></a>
+      </div>
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-image-wrap"><span class="product-tag">Just in</span>
+            <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="The Sol midi dress in a soft, warm neutral" loading="lazy">
+            <button class="quick-add" type="button" data-product="The Sol Midi Dress" aria-label="Add The Sol Midi Dress to bag">+</button>
+          </div>
+          <div class="product-details"><div><h3>The Sol Midi Dress</h3><p>Soft sand</p></div><span class="product-price">$68</span></div>
+          <button class="product-button" type="button" data-product="The Sol Midi Dress">Add to bag <span aria-hidden="true">+</span></button>
+        </article>
+        <article class="product-card">
+          <div class="product-image-wrap"><span class="product-tag">Bestseller</span>
+            <img src="https://images.unsplash.com/photo-1598554747436-c9293d6a588f?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="The everyday linen shirt in an easy relaxed fit" loading="lazy">
+            <button class="quick-add" type="button" data-product="Everyday Linen Shirt" aria-label="Add Everyday Linen Shirt to bag">+</button>
+          </div>
+          <div class="product-details"><div><h3>Everyday Linen Shirt</h3><p>Cloud white</p></div><span class="product-price">$52</span></div>
+          <button class="product-button" type="button" data-product="Everyday Linen Shirt">Add to bag <span aria-hidden="true">+</span></button>
+        </article>
+        <article class="product-card">
+          <div class="product-image-wrap"><span class="product-tag">Just in</span>
+            <img src="https://images.unsplash.com/photo-1541099649105-f69ad21f3246?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="The Sunday trouser with a relaxed, straight-leg shape" loading="lazy">
+            <button class="quick-add" type="button" data-product="Sunday Tailored Trouser" aria-label="Add Sunday Tailored Trouser to bag">+</button>
+          </div>
+          <div class="product-details"><div><h3>Sunday Tailored Trouser</h3><p>Deep olive</p></div><span class="product-price">$64</span></div>
+          <button class="product-button" type="button" data-product="Sunday Tailored Trouser">Add to bag <span aria-hidden="true">+</span></button>
+        </article>
+        <article class="product-card">
+          <div class="product-image-wrap"><span class="product-tag">Small batch</span>
+            <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?auto=format&amp;fit=crop&amp;w=900&amp;q=80" alt="The little every day shoulder bag in caramel" loading="lazy">
+            <button class="quick-add" type="button" data-product="Everyday Shoulder Bag" aria-label="Add Everyday Shoulder Bag to bag">+</button>
+          </div>
+          <div class="product-details"><div><h3>Everyday Shoulder Bag</h3><p>Toasted caramel</p></div><span class="product-price">$46</span></div>
+          <button class="product-button" type="button" data-product="Everyday Shoulder Bag">Add to bag <span aria-hidden="true">+</span></button>
+        </article>
+      </div>
+      <p class="visually-hidden" id="bag-status" aria-live="polite"></p>
+    </section>
+
+    <!-- About the ZUHA brand -->
+    <section class="about-section" id="about" aria-labelledby="about-title">
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Friends sharing a relaxed day out in considered everyday style" loading="lazy">
+        <span class="image-stamp">Made for<br>real life</span>
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow">A little about us</p>
+        <h2 id="about-title">Style should feel<br>like <em>coming home.</em></h2>
+        <p>At ZUHA, we believe getting dressed can be one of the good parts of your day. We bring together easy silhouettes, thoughtful details and the kind of quality you’ll reach for again and again.</p>
+        <p>Our pieces are made to work with your life, not the other way around. Less pressure, more personality — and always room to be beautifully, entirely yourself.</p>
+        <a class="text-link" href="#why-us">Get to know ZUHA <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <!-- Reasons to choose ZUHA -->
+    <section class="section values-section" id="why-us" aria-labelledby="values-title">
+      <div class="values-heading"><p class="eyebrow">The ZUHA feeling</p><h2 id="values-title">Good clothes.<br><em>Good feeling.</em></h2></div>
+      <div class="values-grid">
+        <article class="value-card"><span class="value-number">01</span><h3>Made to last</h3><p>Thoughtful fabrics and considered finishes, so your favourites stay favourites.</p></article>
+        <article class="value-card"><span class="value-number">02</span><h3>Effortlessly you</h3><p>Elegant, easy designs that help you feel like yourself — only more so.</p></article>
+        <article class="value-card"><span class="value-number">03</span><h3>Lovely, not lofty</h3><p>Wear-everywhere style at prices that leave a little room for more joy.</p></article>
+        <article class="value-card"><span class="value-number">04</span><h3>Here for you</h3><p>Real people, thoughtful support, and a little extra care at every step.</p></article>
+      </div>
+    </section>
+
+    <!-- Newsletter subscription form -->
+    <section class="newsletter-section" id="newsletter" aria-labelledby="newsletter-title">
+      <div class="newsletter-inner">
+        <div><p class="eyebrow">A note from us to you</p><h2 id="newsletter-title">Good things, <em>occasionally.</em></h2><p>New arrivals, little treats and a peek behind the scenes. No noise, just the good stuff.</p></div>
+        <form class="newsletter-form">
+          <label class="visually-hidden" for="newsletter-email">Your email address</label>
+          <input id="newsletter-email" name="email" type="email" placeholder="Your email address" autocomplete="email" required>
+          <button type="submit">Count me in <span aria-hidden="true">↗</span></button>
+          <p class="newsletter-message" aria-live="polite"></p>
+          <small>By subscribing, you agree to receive ZUHA updates. Unsubscribe whenever you like.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer navigation, support and contact information -->
+  <footer class="site-footer" id="footer">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <a class="brand brand-footer" href="#home">ZUHA<span>.</span></a>
+        <p>Wear your kind of beautiful.<br>Thoughtful style for wherever life takes you.</p>
+        <div class="social-links" aria-label="Social media"><a href="https://www.instagram.com/" aria-label="Instagram">ig</a><a href="https://www.pinterest.com/" aria-label="Pinterest">p</a><a href="https://www.tiktok.com/" aria-label="TikTok">tk</a></div>
+      </div>
+      <div class="footer-column"><h2>Explore</h2><a href="#home">Home</a><a href="#collections">Shop all</a><a href="#about">Our story</a><a href="#why-us">Why ZUHA</a></div>
+      <div class="footer-column"><h2>Here to help</h2><a href="mailto:hello@zuha.com">Contact us</a><a href="mailto:hello@zuha.com?subject=Shipping%20question">Shipping &amp; returns</a><a href="mailto:hello@zuha.com?subject=Sizing%20question">Size guide</a><a href="mailto:hello@zuha.com?subject=FAQ">FAQs</a></div>
+      <div class="footer-column footer-contact"><h2>Say hello</h2><a href="mailto:hello@zuha.com">hello@zuha.com</a><p>Monday–Friday<br>9am–5pm</p></div>
+    </div>
+    <div class="footer-bottom">
+      <span>© <span id="current-year">2026</span> ZUHA Clothing. Made with care.</span>
+      <div><a href="#footer">Privacy</a><a href="#footer">Terms</a></div>
+      <span>Designed for your everyday</span>
+    </div>
+  </footer>
+</body>
+</html>

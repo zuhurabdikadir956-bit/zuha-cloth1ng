@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Find help with ZUHA orders, delivery, returns, sizing, styling and payment information.">
+  <meta name="theme-color" content="#f7f5f0">
+  <title>Customer Services — ZUHA</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&amp;family=Playfair+Display:wght@500;600;700&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <!-- Skip link and store announcement -->
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="announcement-bar">A little something for your first order: <strong>WELCOME10</strong></div>
+
+  <!-- Shared website header and navigation -->
+  <header class="site-header">
+    <div class="header-inner">
+      <button class="icon-button menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false" aria-controls="primary-navigation">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+      </button>
+
+      <a class="brand" href="index.html#home" aria-label="ZUHA home">ZUHA<span>.</span></a>
+
+      <nav class="primary-navigation" id="primary-navigation" aria-label="Main navigation">
+        <a href="index.html#home">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="index.html#about">About Us</a>
+        <a href="service.html" aria-current="page">Services</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-button search-toggle" type="button" aria-label="Open search" aria-expanded="false" aria-controls="site-search">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.8" cy="10.8" r="6.8"/><path d="m16 16 4.5 4.5"/></svg>
+        </button>
+        <button class="icon-button account-button" type="button" aria-label="Account">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M4.8 20a7.2 7.2 0 0 1 14.4 0"/></svg>
+        </button>
+        <a class="icon-button cart-button" href="cart.html" aria-label="Shopping bag, 0 items">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 8h14l1 12H4L5 8Z"/><path d="M9 9V6a3 3 0 0 1 6 0v3"/></svg>
+          <span class="cart-count" aria-hidden="true">0</span>
+        </a>
+      </div>
+    </div>
+
+    <form class="search-panel" id="site-search" role="search" hidden>
+      <label class="visually-hidden" for="search-input">Search products</label>
+      <input id="search-input" name="q" type="search" placeholder="What are you looking for?">
+      <button type="submit">Search</button>
+    </form>
+  </header>
+
+  <main id="main-content">
+    <!-- Customer service hero -->
+    <section class="hero" aria-labelledby="services-title">
+      <img class="hero-image" src="https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&amp;fit=crop&amp;w=2200&amp;q=85" alt="Friends enjoying a day out in considered everyday style">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow hero-eyebrow">A little help goes a long way</p>
+        <h1 id="services-title">How Can We<br>Help You?</h1>
+        <p class="hero-copy">Find the information you need for a thoughtful, easy ZUHA experience.</p>
+        <a class="button button-light" href="#quick-help">Explore support <span aria-hidden="true">↘</span></a>
+      </div>
+    </section>
+
+    <!-- Service overview -->
+    <section class="section" id="quick-help" aria-labelledby="service-overview-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Here for every step</p>
+          <h2 id="service-overview-title">How we can help</h2>
+        </div>
+        <p>From choosing a size to checking on an order, explore our customer service information below.</p>
+      </div>
+
+      <div class="values-grid">
+        <article class="value-card">
+          <span class="value-number">01</span>
+          <h3>Delivery &amp; shipping</h3>
+          <p>Learn what to expect after placing an order and where to find delivery details.</p>
+          <a class="text-link" href="#delivery">Delivery information <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="value-card">
+          <span class="value-number">02</span>
+          <h3>Returns &amp; exchanges</h3>
+          <p>Review the general steps for asking about a return or exchange.</p>
+          <a class="text-link" href="#returns">Returns information <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="value-card">
+          <span class="value-number">03</span>
+          <h3>Size guide</h3>
+          <p>Get familiar with our size range and find advice for choosing a fit.</p>
+          <a class="text-link" href="#size-guide">Find your size <span aria-hidden="true">↗</span></a>
+        </article>
+        <article class="value-card">
+          <span class="value-number">04</span>
+          <h3>Personal styling</h3>
+          <p>Get in touch if you’d like help finding a piece or putting together an outfit.</p>
+          <a class="text-link" href="#styling">Styling support <span aria-hidden="true">↗</span></a>
+        </article>
+      </div>
+    </section>
+
+    <!-- Delivery and shipping guidance -->
+    <section class="section" id="delivery" aria-labelledby="delivery-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">From our door to yours</p>
+          <h2 id="delivery-title">Delivery &amp; shipping</h2>
+        </div>
+      </div>
+      <div class="values-grid">
+        <article class="value-card">
+          <h3>Order processing</h3>
+          <p>After placing an order, check your confirmation for the details provided. Processing times may vary. Any applicable processing information will be shared during checkout or in your order updates.</p>
+        </article>
+        <article class="value-card">
+          <h3>Delivery options</h3>
+          <p>Available delivery options and applicable charges should be shown at checkout once confirmed for your order and destination.</p>
+        </article>
+        <article class="value-card">
+          <h3>Estimated delivery</h3>
+          <p>Delivery estimates can depend on your location and selected option. Refer to the estimate shown at checkout or in your order updates; estimates are not guaranteed delivery dates.</p>
+        </article>
+        <article class="value-card">
+          <h3>Need an update?</h3>
+          <p>If you have a question about an order, contact our team and include your order reference so they can look into it.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Returns and exchanges guidance -->
+    <section class="section" id="returns" aria-labelledby="returns-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">A little extra reassurance</p>
+          <h2 id="returns-title">Returns &amp; exchanges</h2>
+        </div>
+      </div>
+      <div class="values-grid">
+        <article class="value-card">
+          <span class="value-number">01</span>
+          <h3>Check the order details</h3>
+          <p>Review the return and exchange information provided with your order or at checkout, including any applicable conditions.</p>
+        </article>
+        <article class="value-card">
+          <span class="value-number">02</span>
+          <h3>Contact our team</h3>
+          <p>Send a message with your order reference, the item you’re asking about and whether you’d prefer a return or exchange.</p>
+        </article>
+        <article class="value-card">
+          <span class="value-number">03</span>
+          <h3>Follow the instructions</h3>
+          <p>Our team will share the next steps and any confirmed return instructions for your request.</p>
+        </article>
+        <article class="value-card">
+          <span class="value-number">04</span>
+          <h3>Wait for confirmation</h3>
+          <p>Keep any return tracking details until your request has been received and reviewed.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Clothing size guide -->
+    <section class="section" id="size-guide" aria-labelledby="size-guide-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Find your comfortable fit</p>
+          <h2 id="size-guide-title">Size guide</h2>
+        </div>
+        <p>Fit can vary by style and fabric. Check the individual product page for garment measurements when available.</p>
+      </div>
+
+      <div class="values-grid" aria-label="General clothing size guidance">
+        <article class="value-card">
+          <span class="value-number">XS</span>
+          <h3>Extra small</h3>
+          <p>Our smallest listed size. Compare your measurements with the product’s fit details before ordering.</p>
+        </article>
+        <article class="value-card">
+          <span class="value-number">S</span>
+          <h3>Small</h3>
+          <p>A smaller fit option. Review the garment description for its intended shape and ease.</p>
+        </article>
+        <article class="value-card">
+          <span class="value-number">M</span>
+          <h3>Medium</h3>
+          <p>A middle size option. Use the style-specific measurements to find the fit you prefer.</p>
+        </article>
+        <article class="value-card">
+          <span class="value-number">L</span>
+          <h3>Large</h3>
+          <p>A larger fit option. Product descriptions can help clarify whether a piece is relaxed or close-fitting.</p>
+        </article>
+        <article class="value-card">
+          <span class="value-number">XL</span>
+          <h3>Extra large</h3>
+          <p>Our largest listed size. Check the individual product details for sizing information before choosing.</p>
+        </article>
+      </div>
+
+      <p class="size-note">Specific body and garment measurements have not been provided. For help choosing a size, <a class="text-link" href="contact.html">contact our team <span aria-hidden="true">↗</span></a>.</p>
+    </section>
+
+    <!-- Personal styling information -->
+    <section class="about-section" id="styling" aria-labelledby="styling-title">
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?auto=format&amp;fit=crop&amp;w=1200&amp;q=85" alt="Thoughtfully arranged clothing in soft neutral tones" loading="lazy">
+        <span class="image-stamp">Find your<br>feeling</span>
+      </div>
+      <div class="about-copy">
+        <p class="eyebrow">A little styling inspiration</p>
+        <h2 id="styling-title">Let’s find your kind of beautiful.</h2>
+        <p>Not sure what to wear or which piece is right for you? Tell us what you’re looking for, the occasion and any fit or styling questions you have.</p>
+        <p>Our team can offer assistance with the information available for each style. For the best guidance, include the product name or link in your message.</p>
+        <a class="text-link" href="contact.html">Ask for styling help <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <!-- Payment information -->
+    <section class="section" id="payment" aria-labelledby="payment-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Checkout with confidence</p>
+          <h2 id="payment-title">Payment information</h2>
+        </div>
+      </div>
+      <div class="values-grid">
+        <article class="value-card">
+          <h3>Available payment methods</h3>
+          <p>Payment methods have not yet been confirmed. Check the options displayed during checkout before placing an order.</p>
+        </article>
+        <article class="value-card">
+          <h3>Order total</h3>
+          <p>Review the order total and any applicable charges shown at checkout before confirming your purchase.</p>
+        </article>
+        <article class="value-card">
+          <h3>Payment questions</h3>
+          <p>If you have a question about a payment or order confirmation, contact support and include your order reference where applicable.</p>
+        </article>
+        <article class="value-card">
+          <h3>Keep details private</h3>
+          <p>For your safety, do not send full payment card details or passwords in a message to customer support.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- Frequently asked questions -->
+    <section class="section" id="faqs" aria-labelledby="faq-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Quick answers</p>
+          <h2 id="faq-title">Frequently asked questions</h2>
+        </div>
+      </div>
+
+      <div class="values-grid">
+        <details class="value-card">
+          <summary><h3>How can I ask about an order?</h3></summary>
+          <p>Contact us with your order reference and the email address used when placing the order.</p>
+        </details>
+        <details class="value-card">
+          <summary><h3>When will my order arrive?</h3></summary>
+          <p>Delivery estimates depend on your location and selected option. Check the estimate shown at checkout or in your order updates.</p>
+        </details>
+        <details class="value-card">
+          <summary><h3>How do I choose the right size?</h3></summary>
+          <p>Review the size guide and fit details on the product page. Contact us if you need help with a particular style.</p>
+        </details>
+        <details class="value-card">
+          <summary><h3>How do I request a return or exchange?</h3></summary>
+          <p>Check the information provided with your order, then contact our team with your order reference and the item you’re asking about.</p>
+        </details>
+        <details class="value-card">
+          <summary><h3>Which payment methods can I use?</h3></summary>
+          <p>Available payment methods will be listed at checkout. Review those options before submitting your order.</p>
+        </details>
+        <details class="value-card">
+          <summary><h3>Can I get help styling an outfit?</h3></summary>
+          <p>Yes. Send us the item you’re considering, the occasion and your question through our contact page.</p>
+        </details>
+        <details class="value-card">
+          <summary><h3>Where can I find delivery charges?</h3></summary>
+          <p>Any applicable delivery charges and options should appear during checkout before you confirm your order.</p>
+        </details>
+        <details class="value-card">
+          <summary><h3>What should I include when contacting support?</h3></summary>
+          <p>Include your name, a way to reply, your order reference if relevant, and a clear description of how we can help. Never include passwords or full payment card details.</p>
+        </details>
+      </div>
+    </section>
+
+    <!-- Contact support call to action -->
+    <section class="newsletter-section" aria-labelledby="contact-support-title">
+      <div class="newsletter-inner">
+        <div>
+          <p class="eyebrow">We’re here for you</p>
+          <h2 id="contact-support-title">Still need a hand?</h2>
+          <p>Get in touch with the ZUHA team and tell us what you need help with.</p>
+        </div>
+        <div>
+          <a class="button button-dark" href="contact.html">Contact support <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Shared website footer -->
+  <footer class="site-footer" id="footer">
+    <div class="footer-main">
+      <div class="footer-brand">
+        <a class="brand brand-footer" href="index.html#home">ZUHA<span>.</span></a>
+        <p>Wear your kind of beautiful.<br>Thoughtful style for wherever life takes you.</p>
+        <div class="social-links" aria-label="Social media">
+          <a href="https://www.instagram.com/" aria-label="Instagram">ig</a>
+          <a href="https://www.pinterest.com/" aria-label="Pinterest">p</a>
+          <a href="https://www.tiktok.com/" aria-label="TikTok">tk</a>
+        </div>
+      </div>
+
+      <div class="footer-column">
+        <h2>Explore</h2>
+        <a href="index.html#home">Home</a>
+        <a href="shop.html">Shop all</a>
+        <a href="index.html#about">Our story</a>
+        <a href="service.html">Customer services</a>
+      </div>
+
+      <div class="footer-column">
+        <h2>Here to help</h2>
+        <a href="#faqs">FAQs</a>
+        <a href="#delivery">Delivery &amp; shipping</a>
+        <a href="#returns">Returns &amp; exchanges</a>
+        <a href="contact.html">Contact us</a>
+      </div>
+
+      <div class="footer-column footer-contact">
+        <h2>Say hello</h2>
+        <a href="contact.html">Visit our contact page</a>
+        <p>Support details are available on our contact page.</p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <span>© <span id="current-year">2026</span> ZUHA Clothing. Made with care.</span>
+      <div>
+        <a href="index.html#footer">Privacy</a>
+        <a href="index.html#footer">Terms</a>
+      </div>
+      <span>Designed for your everyday</span>
+    </div>
+  </footer>
+</body>
+</html>
